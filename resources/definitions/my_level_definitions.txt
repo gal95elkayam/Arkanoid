@@ -1,0 +1,66 @@
+# Level 1
+# Angry Birds
+
+START_LEVEL
+level_name:Angry Birds
+ball_velocities:-2,-4
+background:image(background_images/AngryBirds.jpg)
+paddle_speed:5
+paddle_width:160
+block_definitions:definitions/customize_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:100
+num_blocks:18
+START_BLOCKS
+--
+---rrrrrr---rrr
+---rrrrrr---rrr
+-
+-
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Rio
+
+START_LEVEL
+level_name:Rio
+ball_velocities:-2,-4 -3,1
+background:image(background_images/Rio.jpg)
+paddle_speed:5
+paddle_width:160
+block_definitions:definitions/customize_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:100
+num_blocks:15
+START_BLOCKS
+-
+-
+----gg---gg---
+--ggggggggggg-
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# Minions
+
+START_LEVEL
+level_name:Minions
+ball_velocities:-2,3 -1,4
+background:image(background_images/Minions.jpg)
+paddle_speed:5
+paddle_width:160
+block_definitions:definitions/customize_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:100
+num_blocks:12
+START_BLOCKS
+--ll------ll
+--ll------ll
+--ll------ll
+END_BLOCKS
+END_LEVEL
+
